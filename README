@@ -1,0 +1,5 @@
+If you want to start project
+	$rails start "<<Project Name>>" 	#without ""
+If you run project
+	$cd "<<Project Name>>"			#without ""
+	$rails server
