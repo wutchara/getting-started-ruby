@@ -1,5 +1,14 @@
 If you want to start project
 	$rails start "<<Project Name>>" 	#without ""
+
 If you run project
 	$cd "<<Project Name>>"			#without ""
 	$rails server
+
+If you want to create controller
+	$rails generate controller {ControllerName} {action}	#	{ControllerName}, {action} is controller name and action name
+
+If you create view you must create in
+		app/views/{ControllerName}/{viewName}
+		- and routing path in file /config/routes.rb (add "get '{controllerName}/{action}'" in class Rails)
+		- don't forget declare action in /app/controllers/controller/{ControllerName}
