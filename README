@@ -15,3 +15,6 @@ If you create view you must create in
 
 If you show Environment Name
 	- in ruby code return String use <b>Rails.env</b>
+
+If you want to connect database can read
+	- http://guides.rubyonrails.org/configuring.html#configuring-a-database
