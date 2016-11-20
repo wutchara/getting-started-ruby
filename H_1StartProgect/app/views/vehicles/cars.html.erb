@@ -1,4 +1,4 @@
-<h1>Vehicles#cars</h1>
+<h1>Vehicles#cars <%= (@carName != '') ? @carName : "No name" %></h1>
 <p>Find me in app/views/vehicles/cars.html.erb</p>
 <br>
   <b><%= 'Environment Name: ' + Rails.env %></b>
